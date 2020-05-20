@@ -1,0 +1,146 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp">
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="@drawable/blue2"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Swimming Rules"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Always swim with a buddy.\nSwim only in areas that have a lifeguard.\nStay out of the water when you are very tired, very cold, or overheated.\nFollow all swimming rules posted at the swimming area.\nObey the lifeguard’s instruction."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="If you can’t see the bottom of the pool in the deep end or the water is cloudy, don’t swim there.\nAvoid swimming at night in unlighted areas.\nDon’t chew gum or eat while swimming, you could choke."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Do not push, shove, or run near the water, horseplay can be dangerous.\nGet out of the water if you see lightning or hear thunder.\nSwim a safe distance away from diving boards and slides. Never swim under them."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Never swim near a dam or boat ramp.\nAvoid swimming in river currents."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Rules For Pool Slides"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Slides should be at the deep end of the pools so that the entry is into water least eight feet and away from diving areas.\n\nGo down feet first in a sitting position. (Going down headfirst is dangerous-you could injure your head, neck, or back.)"
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Rules For The Beach"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Know where the nearest lifeguard stand is.\nBe sure you know the surf conditions before you enter the water.\nCheck for warning flags.\nObserve danger signs."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Swim well away from piers, pilings, and diving platforms.\nBe on the lookout for dangerous marine life\nIf you swim out from shore, remember you have to swim back."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="If you are caught in a current, don’t try to fight it or swim against it. You can make it back to shore by swimming gradually away from it.\n\nDon’t let any one pressure you into a dangerous stunt.\nRules for Water Park Slides, Flumes and Wave Pools"
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Be sure all areas have a lifeguard.\nPosition yourself carefully before you start down.\nDon’t get pressured into a stunt.\nIn a wave pool be sure you know how deep the water will be when the wave pool is turned on."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

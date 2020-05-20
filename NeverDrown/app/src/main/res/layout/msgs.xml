@@ -1,0 +1,145 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp">
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="@drawable/blue2"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Know Your Limitations"
+					android:textSize="30sp"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Some people get into trouble around water and don’t have the physical fitness to get themselves out of it. Regularly keeping track and knowing your fitness levels are crucial ways to prevent drowning.\n"
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Be Aware Of Medical Conditions"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#E3F2FD"/>
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Medical conditions (Including cardiac, dementia and seizures) and medications you are taking can affect your abilities in the water. It’s important to be conscious of these conditions, before going near the water."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="No Alcohol Around Water"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Alcohol and water don’t mix, particularly when other medications are also being consumed."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Wear A Lifejacket"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Far too many drownings occur in people aged over 55 while boating or fishing. A large number of these drowning deaths could have been prevented if the boaters and fishers had worn a lifejacket. You wouldn’t drive without a seatbelt"
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Learning Life Saving Skills-CPR"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Being empowered with the skills to handle a range of water emergencies is a great way to prevent drowning."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Away From Home"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"/>
+				<TextView
+					android:id="@+id/textview13"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Even if your child can swim you must supervise them - half of children who drown have some swimming ability #BeWaterAware"
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#FFFFFF"/>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,230 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:background="@drawable/blue">
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="First Aid Steps for a Drowning             Victim"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal|center_vertical"/>
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="1. Get out of the water."
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Your first priority is to get a drowning child out of the water as quickly as possible. If she isn't breathing, place her on her back on a firm surface. Immediately begin rescue breathing, below, and have someone call for help."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="2. Open your child's airway."
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Gently tilt her head back with one hand, and lift her chin with the other. Put your ear to the child's mouth and nose, and look, listen, and feel for signs that she is breathing."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="3. If your child doesn't seem to be breathing:"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Infants under age 1: Place your mouth over infant's nose and lips and give two breaths, each lasting about 1 second. Look for the chest to rise and fall"
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Children 1 and older: Pinch child's nose and seal your lips over her mouth. Give two slow, full breaths (1 to 2 seconds each). Wait for the chest to rise and fall before giving the second breath."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="4. If the chest rises after breaths:"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Check for a pulse (see step 4). If the chest doesn't rise, try again. Retilt the head, lift the child's chin, and repeat the breaths"
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="5. Check for a pulse."
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview13"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Put two fingers on your child's neck to the side of the Adam's apple (for infants, feel inside the arm between the elbow and shoulder). Wait five seconds."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview14"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="If there is a pulse, give one breath every three seconds. Check for a pulse every minute, and continue rescue breathing until the child is breathing on her own or help arrives."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview15"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="6. If you can't find a pulse:"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview16"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Infants under age 1: Imagine a line between the child's nipples, and place two fingers just below its centerpoint. Apply five half-inch chest compressions in about three seconds."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview17"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="After five compressions, seal your lips over your child's mouth and nose and give one breath."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview18"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="All ages: Continue the cycle of five chest compressions followed by a breath for one minute, then check for a pulse. Repeat cycle until you find a pulse or help arrives and takes over."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="7. Never assume it's too late to save a child's life."
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview20"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Even if she's unresponsive, continue performing CPR and do not stop until medical professionals take over."
+					android:textSize="20sp"
+					android:textStyle="italic"
+					android:textColor="#000000"/>
+				<TextView
+					android:id="@+id/textview21"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Note: These instructions are not a substitute for CPR training, which all parents and caretakers should have."
+					android:textSize="18sp"
+					android:textStyle="bold|italic"
+					android:textColor="#000000"/>
+				<Button
+					android:id="@+id/button1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="CPR"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal|center_vertical"/>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
